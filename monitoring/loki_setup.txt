@@ -1,0 +1,9 @@
+Started Loki using Docker.
+
+Command used:
+
+docker run -d --name loki -p 3100:3100 grafana/loki
+
+To check logs:
+
+docker logs loki
